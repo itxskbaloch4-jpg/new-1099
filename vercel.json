@@ -1,13 +1,9 @@
 {
-  "headers": [
+  "cleanUrls": true,
+  "rewrites": [
     {
       "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/xml"
-        }
-      ]
+      "destination": "/sitemap.xml"
     }
   ]
 }
